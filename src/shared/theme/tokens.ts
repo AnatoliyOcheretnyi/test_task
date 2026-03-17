@@ -1,0 +1,143 @@
+export const palette = {
+  light: {
+    background: '#F5F7FF',
+    surface: '#FFFFFF',
+    surfaceMuted: '#F5F7FF',
+    textPrimary: '#131313',
+    textSecondary: '#6C727F',
+    textTertiary: '#8F94A3',
+    titlePrimary: '#2C14DD',
+    titleSecondary: '#131313',
+    border: '#B8B8B8',
+    buttonPrimary: '#2C14DD',
+    buttonPrimaryText: '#FFFFFF',
+    buttonSecondary: '#FFFFFF',
+    buttonSecondaryText: '#FFFFFF',
+    buttonTertiary: '#F5F7FF',
+    buttonTertiaryText: '#131313',
+    stepperActive: '#2C14DD',
+    stepperInactive: '#B8B8B8',
+    success: '#00C828',
+    danger: '#E14D67',
+    dangerSoft: '#FFE4E8',
+    overlay: '#F5F7FF',
+    avatarBackground: '#F5F7FF',
+    modalOverlay: 'rgba(19, 19, 19, 0.14)',
+  },
+  dark: {
+    background: '#240F51',
+    surface: '#3A2762',
+    surfaceMuted: '#4B3D74',
+    textPrimary: '#FFFFFF',
+    textSecondary: '#BFB4D6',
+    textTertiary: '#ABA2C5',
+    titlePrimary: '#F5F7FF',
+    titleSecondary: '#FFFFFF',
+    border: '#5D5074',
+    buttonPrimary: '#E1A4FF',
+    buttonPrimaryText: '#240F51',
+    buttonSecondary: '#FFFFFF',
+    buttonSecondaryText: '#131313',
+    buttonTertiary: '#4B3D74',
+    buttonTertiaryText: '#F5F7FF',
+    stepperActive: '#E1A4FF',
+    stepperInactive: '#5D5074',
+    success: '#60CC71',
+    danger: '#FF8EA1',
+    dangerSoft: '#FF8EA1',
+    overlay: '#4B3D74',
+    avatarBackground: '#240F51',
+    modalOverlay: 'rgba(19, 19, 19, 0.14)',
+  },
+} as const;
+
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  xxxl: 32,
+  screen: 24,
+} as const;
+
+export const radius = {
+  sm: 10,
+  md: 14,
+  lg: 20,
+  pill: 999,
+} as const;
+
+export const shadow = {
+  base: '#000000',
+} as const;
+
+export const typography = {
+  titleH1: {
+    fontSize: 32,
+    lineHeight: 40,
+    fontWeight: '700' as const,
+    letterSpacing: 0,
+  },
+  titleH2: {
+    fontSize: 24,
+    lineHeight: 24,
+    fontWeight: '700' as const,
+    letterSpacing: -0.5,
+  },
+  titleH3: {
+    fontSize: 16,
+    lineHeight: 20,
+    fontWeight: '500' as const,
+    letterSpacing: 0,
+  },
+  bodyText: {
+    fontSize: 16,
+    lineHeight: 24,
+    fontWeight: '500' as const,
+    letterSpacing: 0,
+  },
+  bodyOnboarding: {
+    fontSize: 14,
+    lineHeight: 21,
+    fontWeight: '500' as const,
+    letterSpacing: 0,
+  },
+  bodySmall: {
+    fontSize: 14,
+    lineHeight: 22,
+    fontWeight: '500' as const,
+    letterSpacing: 0,
+  },
+  captionBig: {
+    fontSize: 14,
+    lineHeight: 14,
+    fontWeight: '600' as const,
+    letterSpacing: 0,
+  },
+  captionSmall: {
+    fontSize: 12,
+    lineHeight: 12,
+    fontWeight: '400' as const,
+    letterSpacing: 0,
+  },
+  inputFieldText: {
+    fontSize: 14,
+    lineHeight: 14,
+    fontWeight: '500' as const,
+    letterSpacing: -0.4,
+  },
+  buttonPrimary: {
+    fontSize: 16,
+    lineHeight: 24,
+    fontWeight: '600' as const,
+    letterSpacing: 0,
+  },
+  buttonSmall: {
+    fontSize: 14,
+    lineHeight: 14,
+    fontWeight: '500' as const,
+    letterSpacing: 0,
+  },
+} as const;
